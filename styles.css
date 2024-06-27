@@ -1,0 +1,73 @@
+/* Container for the calculator */
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fffefe;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Display input */
+.calculator-screen {
+    width: 80%;
+    height: 80px;
+    font-size: 48px;
+    border: none;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* Button container */
+.calculator-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Button styles */
+.calculator button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+.calculator button:hover {
+    background-color: #ddd;
+}
+
+/* Button active effect */
+.calculator button:active {
+    transform: scale(0.95);
+    background-color: #ccc;
+}
+
+/* Specific button styles */
+.button-clear {
+    background-color: #ff6666;
+    color: #fff;
+}
+
+.button-equal {
+    background-color: #ffcc00;
+    color: #fff;
+}
+
+.button-operator {
+    background-color: #ff9933;
+    color: #fff;
+}
+
+.button-number {
+    background-color: #e6e6e6;
+}
